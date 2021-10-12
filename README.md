@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+<img align="left" alt="LE's Github Stats" src="https://github-readme-stats.vercel.app/api?username=LanikSJ&show_icons=true&include_all_commits=true&hide_border=true" />
+
 <!--
 **LanikSJ/LanikSJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
