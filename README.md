@@ -2,7 +2,12 @@
 ### Hi there 👋
 -->
 
+![GitHub Stats Overview](https://raw.githubusercontent.com/LanikSJ/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+![GitHub Stats Languages](https://raw.githubusercontent.com/LanikSJ/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+
+<!--
 <img align="center" alt="LanikSJ's Github Stats" src="https://github-readme-stats.vercel.app/api?username=LanikSJ&include_all_commits&show_icons=true&theme=tokyonight&hide_border=true" /> <img align="center" alt="LanikSJ's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LanikSJ&show_icons=true&theme=tokyonight&hide_border=true&langs_count=5">
+-->
 
 <!--
 **LanikSJ/LanikSJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
