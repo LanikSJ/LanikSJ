@@ -1,15 +1,15 @@
-<!--
-### Hi there 👋
--->
 
 ![GitHub Stats Overview](https://raw.githubusercontent.com/LanikSJ/github-stats/master/generated/overview.svg)
 ![GitHub Stats Languages](https://raw.githubusercontent.com/LanikSJ/github-stats/master/generated/languages.svg)
 
 <!--
-<img align="center" alt="LanikSJ's Github Stats" src="https://github-readme-stats.vercel.app/api?username=LanikSJ&include_all_commits&show_icons=true&theme=tokyonight&hide_border=true" /> <img align="center" alt="LanikSJ's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LanikSJ&show_icons=true&theme=tokyonight&hide_border=true&langs_count=5">
--->
+<p align="center">
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=LanikSJ&amp;theme=darkhub&column=3&margin-w=15&margin-h=15"
+alt="LanikSJ&#39;s Trophies"></a>
+</p>
 
-<!--
+### Hi there 👋
+
 **LanikSJ/LanikSJ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
