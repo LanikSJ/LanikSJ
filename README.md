@@ -1,11 +1,13 @@
-![GitHub Stats Overview](https://raw.githubusercontent.com/LanikSJ/github-stats/main/generated/overview.svg)
-![GitHub Stats Languages](https://raw.githubusercontent.com/LanikSJ/github-stats/main/generated/languages.svg)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=LanikSJ&show_icons=true&theme=transparent" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LanikSJ&show_icons=true&theme=transparent&layout=compact&langs_count=8&card_width=320" />
+</a>
 
 <!--
-<p align="center">
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=LanikSJ&amp;theme=darkhub&column=3&margin-w=15&margin-h=15"
-alt="LanikSJ&#39;s Trophies"></a>
-</p>
+![GitHub Stats Overview](https://raw.githubusercontent.com/LanikSJ/github-stats/main/generated/overview.svg)
+![GitHub Stats Languages](https://raw.githubusercontent.com/LanikSJ/github-stats/main/generated/languages.svg)
 
 ### Hi there 👋
 
