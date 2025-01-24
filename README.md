@@ -1,5 +1,5 @@
-![GitHub Stats Overview](https://raw.githubusercontent.com/LanikSJ/github-stats/master/generated/overview.svg)
-![GitHub Stats Languages](https://raw.githubusercontent.com/LanikSJ/github-stats/master/generated/languages.svg)
+![GitHub Stats Overview](https://raw.githubusercontent.com/LanikSJ/github-stats/main/generated/overview.svg)
+![GitHub Stats Languages](https://raw.githubusercontent.com/LanikSJ/github-stats/main/generated/languages.svg)
 
 <!--
 <p align="center">
