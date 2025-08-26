@@ -5,14 +5,15 @@
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LanikSJ&show_icons=true&theme=transparent&layout=compact&langs_count=8&card_width=320" />
 </a>
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-**Tagline:**
-_Passionate about open source and automation_
+## ✨ Tagline
 
-**DevOps Professional**
+Passionate about open source and automation
 
-- **Top Skills:** Terraform, CloudFormation, Ansible
+## 🚀 DevOps Professional
+
+- **Top Skills:** Ansible, CloudFormation and Terraform
 - **Most Notable Projects:**
   - [awscli-aliases](https://github.com/LanikSJ/awscli-aliases)
   - [dfimage](https://github.com/LanikSJ/dfimage)
