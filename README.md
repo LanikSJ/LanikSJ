@@ -7,18 +7,18 @@
 
 ## 👨‍💻 About Me
 
-**Tagline:**  
+**Tagline:**
 _Passionate about open source and automation_
 
-**DevOps Professional**  
+**DevOps Professional**
 
-- **Top Skills:** Terraform, CloudFormation, Ansible  
-- **Most Notable Projects:**  
-  - [awscli-aliases](https://github.com/LanikSJ/awscli-aliases)  
-  - [dfimage](https://github.com/LanikSJ/dfimage)  
+- **Top Skills:** Terraform, CloudFormation, Ansible
+- **Most Notable Projects:**
+  - [awscli-aliases](https://github.com/LanikSJ/awscli-aliases)
+  - [dfimage](https://github.com/LanikSJ/dfimage)
   - [lsusb](https://github.com/LanikSJ/lsusb)
-  - [ubo-filters](https://github.com/LanikSJ/ubo-filters)  
-  - [webannoyances](https://github.com/LanikSJ/webannoyances)  
+  - [ubo-filters](https://github.com/LanikSJ/ubo-filters)
+  - [webannoyances](https://github.com/LanikSJ/webannoyances)
 - **Fun Fact:** I speak 3 languages.
 
 ---
