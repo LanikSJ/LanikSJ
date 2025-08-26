@@ -7,7 +7,7 @@
 
 ## 👨‍💻 About Me
 
-**Tagline:**  
+**Tagline:**
 _Passionate about open source and automation_
 
 **DevOps Professional**
