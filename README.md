@@ -24,3 +24,19 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+---
+
+## 👨‍💻 About Me
+
+**Tagline:**  
+_Passionate about open source and automation_
+
+**DevOps Professional**  
+- **Top Skills:** Terraform, CloudFormation, Ansible  
+- **Most Notable Projects:**  
+  - [awscli-aliases](https://github.com/LanikSJ/awscli-aliases)  
+  - [dfimage](https://github.com/LanikSJ/dfimage)  
+- **Fun Fact:** I speak 3 languages.
+
+---
