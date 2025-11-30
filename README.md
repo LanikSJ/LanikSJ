@@ -13,7 +13,7 @@ Passionate about open source and automation
 
 ## 🚀 DevOps Professional
 
-### Top Skills
+### 🛠️ Top Skills
 
 <p align="left">
   <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white" alt="Ansible" />
@@ -21,7 +21,7 @@ Passionate about open source and automation
   <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white" alt="Terraform" />
 </p>
 
-### Most Notable Projects
+### 🐙 Most Notable Projects
 
 - [awscli-aliases](https://github.com/LanikSJ/awscli-aliases) - Useful aliases for AWS CLI commands
 - [dfimage](https://github.com/LanikSJ/dfimage) - Tool to reverse-engineer Docker images
@@ -29,7 +29,7 @@ Passionate about open source and automation
 - [ubo-filters](https://github.com/LanikSJ/ubo-filters) - Filters for uBlock Origin
 - [webannoyances](https://github.com/LanikSJ/webannoyances) - Filters for web annoyances
 
-### Fun Fact
+### 💡 Fun Fact
 
 I speak 3 languages.
 
