@@ -1,31 +1,33 @@
-# Configuration for GitHub stale issues bot
+# Configuration for GitHub Actions stale bot - https://github.com/actions/stale
+# Automatically manages stale issues and pull requests
+
 # Number of days of inactivity before an issue becomes stale
-daysUntilStale: 60
+daysUntilStale: 21
 # Number of days of inactivity before a stale issue is closed
 daysUntilClose: 7
 # Issues with these labels will never be considered stale
 exemptLabels:
   - pinned
   - security
+  - bug
+  - enhancement
   - help wanted
   - good first issue
-  - enhancement
-  - bug
-  - documentation
-  - wontfix
-  - invalid
-  - duplicate
-# Label to use when marking an issue as stale (default: "Stale")
+# Label to use when marking an issue as stale
 staleLabel: stale
-# Limit the number of operations per run (recommended: 30)
-operationsPerRun: 30
-# Comment to post when marking an issue as stale
+# Comment to post when marking an issue as stale. Set to `false` to disable
 markComment: >
-  This issue has been automatically marked as stale because it has not had
-  recent activity. It will be closed if no further activity occurs.
-  If you still need this issue addressed, please add a comment to keep it open. Thank you
-  for your contributions.
-# Comment to post when closing a stale issue
+  This issue has been automatically marked as stale due to lack of recent activity.
+  It will be closed in 7 days if no further updates occur.
+
+  To keep this issue open:
+  - Add a comment explaining why this issue should remain open
+  - Apply the `pinned` label to prevent automatic closure
+  - Update with new information or reproduction steps
+
+  Thank you for your contributions.
+# Comment to post when closing a stale issue. Set to `false` to disable
 closeComment: >
-  This issue has been closed due to inactivity. If you believe this is a mistake,
-  please reopen it and provide additional details.
+  This issue has been automatically closed due to inactivity.
+  If you believe this issue should be reopened, please provide more details or context,
+  and we'll consider re-evaluating it.
