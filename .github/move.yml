@@ -1,27 +1,37 @@
-# Configuration for move-issues - https://github.com/dessant/move-issues
+# Configuration for Move Issues - https://github.com/dessant/move-issues
+#
+# This file customizes the behavior of the Move Issues app for automatically
+# moving GitHub issues between repositories using the /move command.
+#
+# See the documentation for available options and their effects.
 
 # Delete the command comment when it contains no other content
 deleteCommand: true
 
-# Close the source issue after moving
+# Close the source issue after moving to prevent duplicates
 closeSourceIssue: true
 
-# Lock the source issue after moving
+# Lock the source issue after moving to prevent further modifications
+# Note: Default is false for most repos; set to true for stricter control
 lockSourceIssue: true
 
-# Mention issue and comment authors
+# Mention issue and comment authors when moving to notify contributors
 mentionAuthors: true
 
-# Preserve mentions in the issue content
+# Preserve mentions in the issue content to maintain attribution
+# Set to false to clean up content and reduce noise
 keepContentMentions: false
 
 # Move labels that also exist on the target repository
+# Helps maintain categorization when possible
 moveLabels: true
 
-# Set custom aliases for targets
+# Optional: Set custom aliases for targets to shorten commands
+# Uncomment and customize as needed for frequently used repositories
 # aliases:
 #   r: repo
 #   or: owner/repo
 
-# Repository to extend settings from
+# Optional: Repository to extend settings from
+# Uncomment and specify a template repository if standardizing configs
 # _extends: repo
