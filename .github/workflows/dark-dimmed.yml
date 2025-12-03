@@ -17,10 +17,10 @@ jobs:
     runs-on: ubuntu-latest
       
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
 
-    - name: Generate the user stats image
-      uses: cicirello/user-statistician@v1
+    - name: Generate User Stats Image
+      uses: cicirello/user-statistician@d1918dd362c46c2dc1788139947224eee4fef0b8 # v1.24.2
       with:
         colors: dark-dimmed
       env:
