@@ -1,9 +1,12 @@
-<a href="https://github.com/LanikSJ/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.lanik.us/api?username=LanikSJ&show_icons=true&theme=transparent" />
+<a href="https://github.com/cicirello/user-statistician">
+  <img height=800 align="center" src="https://raw.githubusercontent.com/LanikSJ/LanikSJ/refs/heads/main/images/userstats.svg" alt="User Statistics" />
 </a>
+<!-- <a href="https://github.com/LanikSJ/github-readme-stats">
+  <img height=200 align="right" src="https://github-readme-stats.lanik.us/api?username=LanikSJ&show_icons=true&theme=transparent" />
+</a><br>
 <a href="https://github.com/LanikSJ/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats.lanik.us/api/top-langs/?username=LanikSJ&show_icons=true&theme=transparent&layout=compact&langs_count=8&card_width=320" />
-</a>
+  <img height=200 align="right" src="https://github-readme-stats.lanik.us/api/top-langs/?username=LanikSJ&show_icons=true&theme=transparent&layout=compact&langs_count=8&card_width=320" />
+</a> -->
 
 # Hi, I'm LanikSJ! 👋
 
