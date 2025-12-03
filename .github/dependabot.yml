@@ -4,9 +4,28 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: daily
-    open-pull-requests-limit: 10
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: "Etc/UTC"
+    open-pull-requests-limit: 5
+    assignees:
+      - "LanikSJ"
+    labels:
+      - "dependencies"
+      - "github-actions"
     commit-message:
       prefix: "ci(deps)"
       prefix-development: "ci(deps-dev)"
-  
+    groups:
+      github-actions-major:
+        patterns:
+          - "*"
+        update-types:
+          - "major"
+      github-actions-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"

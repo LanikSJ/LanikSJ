@@ -1,3 +1,4 @@
+# Configuration for GitHub stale issues bot
 # Number of days of inactivity before an issue becomes stale
 daysUntilStale: 60
 # Number of days of inactivity before a stale issue is closed
@@ -6,12 +7,25 @@ daysUntilClose: 7
 exemptLabels:
   - pinned
   - security
-# Label to use when marking an issue as stale
-staleLabel: wontfix
-# Comment to post when marking an issue as stale. Set to `false` to disable
+  - help wanted
+  - good first issue
+  - enhancement
+  - bug
+  - documentation
+  - wontfix
+  - invalid
+  - duplicate
+# Label to use when marking an issue as stale (default: "Stale")
+staleLabel: stale
+# Limit the number of operations per run (recommended: 30)
+operationsPerRun: 30
+# Comment to post when marking an issue as stale
 markComment: >
   This issue has been automatically marked as stale because it has not had
-  recent activity. It will be closed if no further activity occurs. Thank you
+  recent activity. It will be closed if no further activity occurs.
+  If you still need this issue addressed, please add a comment to keep it open. Thank you
   for your contributions.
-# Comment to post when closing a stale issue. Set to `false` to disable
-closeComment: false
+# Comment to post when closing a stale issue
+closeComment: >
+  This issue has been closed due to inactivity. If you believe this is a mistake,
+  please reopen it and provide additional details.
