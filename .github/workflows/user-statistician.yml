@@ -12,7 +12,7 @@ on:
     - cron: '0 3 * * *'
   push:
     branches: [ main, master ]
-    paths: [ '.github/workflows/dark-dimmed.yml' ]
+    paths: [ '.github/workflows/user-statistician.yml' ]
   workflow_dispatch:
 
 jobs:
@@ -25,6 +25,6 @@ jobs:
     - name: Generate User Stats Image
       uses: cicirello/user-statistician@d1918dd362c46c2dc1788139947224eee4fef0b8 # v1.24.2
       with:
-        colors: dark-dimmed
+        colors: dark
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
