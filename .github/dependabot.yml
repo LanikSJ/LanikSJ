@@ -13,14 +13,6 @@ updates:
       prefix: "ci(deps)"
       prefix-development: "ci(deps-dev)"
     groups:
-      github-actions-major:
+      github-actions:
         patterns:
           - "*"
-        update-types:
-          - "major"
-      github-actions-minor-patch:
-        patterns:
-          - "*"
-        update-types:
-          - "minor"
-          - "patch"
