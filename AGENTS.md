@@ -1,4 +1,4 @@
-# AI Rules & Project Standards for laniksj
+# Agent Rules & Project Standards for laniksj
 
 ## Repository Overview
 
