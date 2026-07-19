@@ -9,37 +9,40 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: "0 3 * * *"
   push:
-    branches: [ main, master ]
-    paths: [ '.github/workflows/user-statistician.yml' ]
+    branches: [main, master]
+    paths: [".github/workflows/user-statistician.yml"]
+  pull_request:
+    branches: [main, master]
+    paths: [".github/workflows/user-statistician.yml"]
   workflow_dispatch:
 
 jobs:
   stats:
     runs-on: ubuntu-latest
-      
-    steps:
-    - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
-    - name: Generate User Stats Image
-      uses: cicirello/user-statistician@2be87901e682c6e626a342c8cd61c1a9fcd8b2f0 # v1.26.0
-      with:
-        image-file: images/userstats.svg
-        include-title: true
-        colors: dark
-        fail-on-error: true
-        commit-and-push: true
-        locale: en
-        border-radius: 6
-        show-border: true
-        small-title: false
-        max-languages: auto
-        category-order: general, repositories, contributions, languages
-        animated-language-chart: false
-        language-animation-speed: 10
-        image-width: 0
-        top-icon: default
-        commit-message: Automated change by https://github.com/cicirello/user-statistician
-      env:
-        GITHUB_TOKEN: ${{secrets.USER_STATS_TOKEN || secrets.GITHUB_TOKEN}}
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Generate User Stats Image
+        uses: cicirello/user-statistician@2be87901e682c6e626a342c8cd61c1a9fcd8b2f0 # v1.26.0
+        with:
+          image-file: images/userstats.svg
+          include-title: true
+          colors: dark
+          fail-on-error: true
+          commit-and-push: true
+          locale: en
+          border-radius: 6
+          show-border: true
+          small-title: false
+          max-languages: auto
+          category-order: general, repositories, contributions, languages
+          animated-language-chart: false
+          language-animation-speed: 10
+          image-width: 0
+          top-icon: default
+          commit-message: Automated change by https://github.com/cicirello/user-statistician
+        env:
+          GITHUB_TOKEN: ${{secrets.USER_STATS_TOKEN || secrets.GITHUB_TOKEN}}
