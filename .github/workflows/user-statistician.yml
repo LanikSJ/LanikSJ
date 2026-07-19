@@ -26,23 +26,8 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Generate User Stats Image
-        uses: cicirello/user-statistician@2be87901e682c6e626a342c8cd61c1a9fcd8b2f0 # v1.26.0
+        uses: cicirello/user-statistician@1c77e7a9c65279eccdfe12843255e10c7b62adb5 # v1.26.1
         with:
-          image-file: images/userstats.svg
-          include-title: true
           colors: dark
-          fail-on-error: true
-          commit-and-push: true
-          locale: en
-          border-radius: 6
-          show-border: true
-          small-title: false
-          max-languages: auto
-          category-order: general, repositories, contributions, languages
-          animated-language-chart: false
-          language-animation-speed: 10
-          image-width: 0
-          top-icon: default
-          commit-message: Automated change by https://github.com/cicirello/user-statistician
         env:
-          GITHUB_TOKEN: ${{secrets.USER_STATS_TOKEN || secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
