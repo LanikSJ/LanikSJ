@@ -1,0 +1,33 @@
+# This workflow configures the user-statistician with the
+# dark-dimmed color theme, but otherwise uses all of
+# the defaults. It is configured on a daily schedule at 3am.
+
+name: User Statistician
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    branches: [main, master]
+    paths: [".github/workflows/user-statistician.yml"]
+  pull_request:
+    branches: [main, master]
+    paths: [".github/workflows/user-statistician.yml"]
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Generate User Stats Image
+        uses: cicirello/user-statistician@1c77e7a9c65279eccdfe12843255e10c7b62adb5 # v1.26.1
+        with:
+          colors: dark
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
