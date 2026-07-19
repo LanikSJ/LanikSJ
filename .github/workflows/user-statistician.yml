@@ -1,6 +1,6 @@
-# This workflow configures the user-statistician with the
-# dark-dimmed color theme, but otherwise uses all of
-# the defaults. It is configured on a daily schedule at 3am.
+# This workflow generates a user statistics image using the
+# user-statistician action. Configured with dark theme and
+# custom output settings. Runs daily at 3am.
 
 name: User Statistician
 
@@ -25,6 +25,21 @@ jobs:
     - name: Generate User Stats Image
       uses: cicirello/user-statistician@2be87901e682c6e626a342c8cd61c1a9fcd8b2f0 # v1.26.0
       with:
+        image-file: images/userstats.svg
+        include-title: true
         colors: dark
+        fail-on-error: true
+        commit-and-push: true
+        locale: en
+        border-radius: 6
+        show-border: true
+        small-title: false
+        max-languages: auto
+        category-order: general, repositories, contributions, languages
+        animated-language-chart: false
+        language-animation-speed: 10
+        image-width: 0
+        top-icon: default
+        commit-message: Automated change by https://github.com/cicirello/user-statistician
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{secrets.USER_STATS_TOKEN || secrets.GITHUB_TOKEN}}
