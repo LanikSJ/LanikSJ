@@ -8,14 +8,14 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: "0 3 * * *"
-  push:
-    branches: [main, master]
-    paths: [".github/workflows/user-statistician.yml"]
-  pull_request:
-    branches: [main, master]
-    paths: [".github/workflows/user-statistician.yml"]
+  # schedule:
+  #   - cron: "0 3 * * *"
+  # push:
+  #   branches: [main, master]
+  #   paths: [".github/workflows/user-statistician.yml"]
+  # pull_request:
+  #   branches: [main, master]
+  #   paths: [".github/workflows/user-statistician.yml"]
   workflow_dispatch:
 
 jobs:
