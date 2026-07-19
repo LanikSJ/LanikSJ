@@ -1,6 +1,6 @@
 # This workflow configures the user-statistician with the
 # dark-dimmed color theme, but otherwise uses all of
-# the defaults. It is configured on a daily schedule at 3am.
+# the defaults. It is configured on a weekly schedule at 3am.
 
 name: User Statistician
 
@@ -29,5 +29,6 @@ jobs:
         uses: cicirello/user-statistician@1c77e7a9c65279eccdfe12843255e10c7b62adb5 # v1.26.1
         with:
           colors: dark
+          fail-on-error: false
         env:
           GITHUB_TOKEN: ${{secrets.PAT_TOKEN}}
