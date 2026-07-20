@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Generate User Stats Image
-        uses: cicirello/user-statistician@3a29ec2d9c47ff459e267df519dc3ae97a65b930 # v1.26.2
+        uses: cicirello/user-statistician@c264af153092bf60143f85e7683739898a274b94 # v1.26.2
         with:
           colors: dark
           fail-on-error: false
