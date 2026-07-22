@@ -8,14 +8,14 @@ permissions:
   contents: write
 
 on:
-  # schedule:
-  #   - cron: "0 3 * * 0"
-  # push:
-  #   branches: [main, master]
-  #   paths: [".github/workflows/user-statistician.yml"]
-  # pull_request:
-  #   branches: [main, master]
-  #   paths: [".github/workflows/user-statistician.yml"]
+  schedule:
+    - cron: "0 3 * * 0"
+  push:
+    branches: [main, master]
+    paths: [".github/workflows/user-statistician.yml"]
+  pull_request:
+    branches: [main, master]
+    paths: [".github/workflows/user-statistician.yml"]
   workflow_dispatch:
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Generate User Stats Image
-        uses: cicirello/user-statistician@c264af153092bf60143f85e7683739898a274b94 # v1.26.2
+        uses: cicirello/user-statistician@36500351ea14b69e68217d4c89eb0f3f06680b17 # v1.26.3
         with:
           colors: dark
           fail-on-error: false
