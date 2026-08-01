@@ -29,6 +29,5 @@ jobs:
         uses: cicirello/user-statistician@36500351ea14b69e68217d4c89eb0f3f06680b17 # v1.26.3
         with:
           colors: dark
-          fail-on-error: false
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
