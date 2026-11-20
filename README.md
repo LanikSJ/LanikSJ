@@ -34,3 +34,13 @@ Passionate about open source and automation
 I speak 3 languages.
 
 ---
+
+
+## ⚙️ Skills Automation
+
+This repository maintains agent skills via `skills-lock.json`. The GitHub Actions
+workflow automatically updates the skills monthly and creates a pull request.
+
+- **Workflow**: `.github/workflows/skills-update.yml`
+- **Schedule**: Monthly on the 5th at 06:00 UTC
+- **Manual run**: `npx skills update`
