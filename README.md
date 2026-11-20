@@ -35,7 +35,6 @@ I speak 3 languages.
 
 ---
 
-
 ## ⚙️ Skills Automation
 
 This repository maintains agent skills via `skills-lock.json`. The GitHub Actions
